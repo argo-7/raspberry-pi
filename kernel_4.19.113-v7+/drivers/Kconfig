@@ -219,4 +219,7 @@ source "drivers/siox/Kconfig"
 
 source "drivers/slimbus/Kconfig"
 
+# path of the new driver Kconfig
+source "drivers/argo/Kconfig"
+
 endmenu
