@@ -1,0 +1,8 @@
+# Simple configuration for the new driver.
+
+config MAIN
+tristate "my driver"
+depends on ARM
+default y if ARM
+help
+  my driver module.
